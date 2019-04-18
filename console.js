@@ -32,6 +32,15 @@ console.log('\nError\n==============================================');
 console.error('Bake them in a preheated oven at 220ºC');
 
 
+// Timing
+console.log('\nTiming\n=============================================');
+console.time('Fibonacci'); // Starts timer (optional label argument)
+// (...) code
+console.timeLog('Fibonacci'); // Code execution time (in milliseconds)
+// (...) code
+console.timeEnd('Fibonacci'); // Log time and end timer
+
+
 // Assert
 console.log('\nAssert\n=============================================');
 console.assert(true, "Hide the log");
